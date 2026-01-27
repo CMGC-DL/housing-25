@@ -3,30 +3,38 @@ Central Maine Growth Council (CMGC) has created the following analytical tool to
 
 “This project is provided as-is for research, educational, advocacy, and commercial use. The authors and affiliated nonprofit assume no responsibility for outcomes derived from its use.”
 
-"# Housing Data Analysis Notebook\n",
-    "## Created by: Central Maine Growth Council\n",
-    "## Data Source: [Realtor.com](https://www.realtor.com/research/data/) Research Data\n",
-    "\n",
-    "This notebook analyzes housing market metrics for a specified ZIP code, comparing against state and national trends. It produces:\n",
-    "- Seasonal adjustment analysis using Prophet\n",
-    "- Geographic comparison plots (ZIP vs State vs National)\n",
-    "- Yearly summary tables\n",
-    "\n",
-    "### Requirements\n",
-    "1. This is a python3 based jupyter-notebook and requires that python is install along with jupyter-lab or note book\n",
-    "   - see this link to understand how to install these\n",
-    "2. The following python libraries are needed\n",
-    "   - pandas\n",
-    "   - numpy\n",
-    "   - math\n",
-    "   - os\n",
-    "   - warnings\n",
-    "   - prophet\n",
-    "   - plotly\n",
-    "   - kaleido\n",
-    "3. You must have google chrome installed\n",
-    "\n",
-    "### Usage\n",
-    "1. Edit the **Configuration** cell below with your settings\n",
-    "2. Run all cells (Cell → Run All)\n",
-    "3. Check the outputs in the specified directories"
+# Housing Data Analysis Notebook
+
+## Created by: Central Maine Growth Council
+
+## Data Source
+[Realtor.com Research Data](https://www.realtor.com/research/data/)
+
+This notebook analyzes housing market metrics for a specified ZIP code, comparing against state and national trends. It produces:
+
+- Seasonal adjustment analysis using Prophet  
+- Geographic comparison plots (ZIP vs State vs National)  
+- Yearly summary tables  
+
+## Requirements
+
+1. This is a Python 3–based Jupyter Notebook and requires Python to be installed along with JupyterLab or Jupyter Notebook.  
+   - See the provided link above for installation guidance.
+
+2. The following Python libraries are required:
+   - `pandas`
+   - `numpy`
+   - `math`
+   - `os`
+   - `warnings`
+   - `prophet`
+   - `plotly`
+   - `kaleido`
+
+3. Google Chrome must be installed.
+
+## Usage
+
+1. Edit the **Configuration** cell with your desired settings, including the file path.
+3. Run all cells (`Cell → Run All`).  
+4. Review the outputs in the specified directories.
