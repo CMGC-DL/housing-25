@@ -5,7 +5,7 @@ Central Maine Growth Council (CMGC) has created the following analytical tool to
 
 # Housing Data Analysis Notebook
 
-## Created by: Central Maine Growth Council
+## Created by: [Central Maine Growth Council](https://www.centralmaine.org/)
 
 ## Data Source
 [Realtor.com Research Data](https://www.realtor.com/research/data/)
