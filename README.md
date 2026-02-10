@@ -33,6 +33,60 @@ This notebook analyzes housing market metrics for a specified ZIP code, comparin
 
 3. Google Chrome must be installed.
 
+## Set Up Instructions (Mac OS)
+These are generic instructions. Please verify them and use at your own risk. These are common python and environment set up instructions for MacOS that you can find online.
+
+### Python + JupyterLab Setup (macOS)
+
+This guide covers installing Python on macOS, creating a virtual environment, installing JupyterLab and required libraries, and activating/deactivating the environment.
+
+---
+
+#### 1. Install Homebrew (if not already installed)
+Homebrew is used to install and manage Python.
+
+bash (terminal - you can search for it in your apps. Copy and paste the line below)
+
+```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+
+```brew --version```
+
+#### 2. Install Python
+
+Install the latest stable Python 3 release:
+
+```brew install python```
+
+Confirm installation:
+
+```python3 --version```
+
+```pip3 --version```
+
+#### 3. Create Virtual Environment
+This helps stabilize all the libraries used and ensure that other apps on your computer are not affected
+
+```python3 -m venv .venv```
+
+```source .venv/bin/activate```
+
+```pip install --upgrade pip```
+
+```pip install pandas numpy prophet plotly kaleido jupyterlab```
+
+```jupyter lab```
+
+After this step, navigate in the application to the jupyter notebook file downloaded from this git.
+
+#### Deactivating and Reactivating the Environment
+When finished working:(deactivate)
+
+```deactivate```
+
+From the project directory i.e. folder where the files are: (Reactivating)
+
+```source .venv/bin/activate```
+
 ## Usage
 
 1. Edit the **Configuration** cell with your desired settings, including the file path.
