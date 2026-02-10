@@ -12,7 +12,7 @@ Central Maine Growth Council (CMGC) has created the following analytical tool to
 
 This notebook analyzes housing market metrics for a specified ZIP code, comparing against state and national trends. It produces:
 
-- Seasonal adjustment analysis using Prophet  
+- Seasonal adjustment analysis using [Facebook's Prophet Forecasting Model](https://facebook.github.io/prophet/) 
 - Geographic comparison plots (ZIP vs State vs National)  
 - Yearly summary tables  
 
