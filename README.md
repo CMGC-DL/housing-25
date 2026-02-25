@@ -21,7 +21,7 @@ This notebook analyzes housing market metrics for a specified ZIP code, comparin
 1. This is a Python 3–based Jupyter Notebook and requires Python to be installed along with JupyterLab or Jupyter Notebook.  
    - See the provided link above for installation guidance.
 
-2. The following Python libraries are required:
+2. The following Python libraries are require. These are provided in the requirements.txt file:
    - `pandas`
    - `numpy`
    - `math`
@@ -64,7 +64,7 @@ Confirm installation:
 ```pip3 --version```
 
 #### 3. Create Virtual Environment
-This helps stabilize all the libraries used and ensure that other apps on your computer are not affected
+This helps stabilize all the libraries used and ensure that other apps on your computer are not affected. This step will utilize the ```requirements.txt``` file so make sure to download it.
 
 ```python3 -m venv .venv```
 
@@ -72,7 +72,7 @@ This helps stabilize all the libraries used and ensure that other apps on your c
 
 ```pip install --upgrade pip```
 
-```pip install pandas numpy prophet plotly kaleido jupyterlab```
+```pip install -r requirements.txt```
 
 ```jupyter lab```
 
